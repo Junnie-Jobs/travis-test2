@@ -1,0 +1,92 @@
+{
+  "name": "csslint",
+  "version": "0.10.0",
+  "description": "CSSLint",
+  "author": {
+    "name": "Nicole Sullivan"
+  },
+  "contributors": [
+    {
+      "name": "Nicholas C. Zakas"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "./lib/csslint-node.js",
+  "bin": {
+    "csslint": "./cli.js"
+  },
+  "scripts": {
+    "csslint": "node node_modules/csslint/cli css",
+    "jshint": "node node_modules/jshint/bin/jshint js",
+    "karma": "node ./node_modules/karma-cli/bin/karma start",
+    "test": "node node_modules/grunt-cli/bin/grunt"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/stubbornella/csslint/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/stubbornella/csslint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stubbornella/csslint.git"
+  },
+  "dependencies": {
+    "parserlib": "~0.2.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-include-replace": "~0.4.0",
+    "grunt-karma": "^0.12.2",
+    "jshint": "^2.9.1",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-cli": "^0.1.2",
+    "karma-mocha": "^0.2.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.7",
+    "yuitest": "~0.7.9"
+  },
+  "_id": "csslint@0.10.0",
+  "dist": {
+    "shasum": "3a6a04e7565c8e9d19beb49767c7ec96e8365805",
+    "tarball": "https://registry.npmjs.org/csslint/-/csslint-0.10.0.tgz"
+  },
+  "_from": "csslint@latest",
+  "_npmVersion": "1.2.32",
+  "_npmUser": {
+    "name": "stubbornella",
+    "email": "nicole@stubbornella.org"
+  },
+  "maintainers": [
+    {
+      "name": "nzakas",
+      "email": "nzakas@yahoo-inc.com"
+    },
+    {
+      "name": "stubbornella",
+      "email": "nicole@stubbornella.org"
+    }
+  ],
+  "_shasum": "3a6a04e7565c8e9d19beb49767c7ec96e8365805",
+  "_resolved": "https://registry.npmjs.org/csslint/-/csslint-0.10.0.tgz",
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/stubbornella/csslint#readme"
+}
